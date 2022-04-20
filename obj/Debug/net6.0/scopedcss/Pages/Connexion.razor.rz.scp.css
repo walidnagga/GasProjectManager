@@ -1,0 +1,38 @@
+.name[b-514ghyfwon] {
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 226);
+    border: 8px black;
+}
+
+.text[b-514ghyfwon] {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.zonetext1[b-514ghyfwon] {
+    margin-left: 14px;
+    margin-right: 20px;
+}
+
+.zonetext2[b-514ghyfwon] {
+    margin-left: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.lien1[b-514ghyfwon] {
+    margin-top: 2px;
+    margin-left: 12%;
+    margin-bottom: 0px;
+}
+
+.lien2[b-514ghyfwon] {
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 12%;
+}
+
+
