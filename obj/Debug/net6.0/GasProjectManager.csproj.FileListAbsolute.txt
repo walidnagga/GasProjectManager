@@ -16,7 +16,6 @@ D:\projects\GasProjectManager\obj\Debug\net6.0\GasProjectManager.RazorAssemblyIn
 D:\projects\GasProjectManager\obj\Debug\net6.0\GasProjectManager.RazorAssemblyInfo.cs
 D:\projects\GasProjectManager\obj\Debug\net6.0\staticwebassets.build.json
 D:\projects\GasProjectManager\obj\Debug\net6.0\staticwebassets.development.json
-D:\projects\GasProjectManager\obj\Debug\net6.0\scopedcss\Pages\Connexion.razor.rz.scp.css
 D:\projects\GasProjectManager\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\projects\GasProjectManager\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\projects\GasProjectManager\obj\Debug\net6.0\scopedcss\bundle\GasProjectManager.styles.css
