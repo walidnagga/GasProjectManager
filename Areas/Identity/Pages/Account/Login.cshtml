@@ -1,4 +1,4 @@
-﻿@page "/";
+﻿@page "/"
 @model GasProjectManager.Areas.Identity.Pages.Account.LoginModel
 
 <div class="card d-grid gap-2 col-3 mx-auto">
@@ -10,9 +10,9 @@
         </div>
         <div class="zonetext1">
             <div class="form-floating" style="margin:10px">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                <label asp-for="Input.Email" class="form-label">Matricule:</label>
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <input asp-for="Input.Matricule" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Matricule" class="form-label">Matricule:</label>
+                <span asp-validation-for="Input.Matricule" class="text-danger"></span>
             </div>
         </div>
         <div class="zonetext2">
@@ -26,20 +26,9 @@
         <div class="row">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <button class="btn btn-primary me-md-2" type="button">Login</button>
-            </div>
-            <div class="lien1">
-                <a href="../interface recuperation/passe.html">Mot de passe oublier?</a> 
-            </div>
-            <div class="lien2">
-                <a href="../interface d'inscription/inscrpition.html">Creer un compte</a>
+                 <button class="btn btn-primary me-md-2" type="button">Register</button>
             </div>
         </div>
     </form>
   </div>
-
-
-
-
-
-
 </div>

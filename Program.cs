@@ -9,8 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connectionString));
+var ConnectionStrings = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(ConnectionStrings));
+
+builder.Services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase(ConnectionStrings));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => 
 {
@@ -21,7 +23,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     options.Password.RequireUppercase = false;
     options.SignIn.RequireConfirmedEmail = false;
 })
-    .AddEntityFrameworkStores<DataContext>();
+    .AddEntityFrameworkStores<DataContext>(); 
 
 builder.Services.AddSingleton<WeatherForecastService>();
 

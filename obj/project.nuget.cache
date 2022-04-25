@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YFOwHCyXgTIDyd69+SijPpj7kESc3ABB+7DVaFViOp+Gi8HK8jsApjnOz118rD6uBWTI7rRAmDsbpzaj5ZTEvQ==",
+  "dgSpecHash": "b821XVMzsL57wN0xm72smmhjNcb+WxJMmpMQt7g5MDFUDJ+WBobI+OlA5EZkLwhouyY6ccUdcv67z5rpO3Noew==",
   "success": true,
   "projectFilePath": "D:\\projects\\GasProjectManager\\GasProjectManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Walid\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.4\\microsoft.aspnetcore.cryptography.internal.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.4\\microsoft.aspnetcore.cryptography.keyderivation.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.4\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.4.nupkg.sha512",
@@ -16,6 +15,7 @@
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.4\\microsoft.entityframeworkcore.design.6.0.4.nupkg.sha512",
+    "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.4\\microsoft.entityframeworkcore.inmemory.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.4\\microsoft.entityframeworkcore.sqlserver.6.0.4.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.4\\microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512",
@@ -54,16 +54,5 @@
     "C:\\Users\\Walid\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\Walid\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.AspNet.Identity.Core 2.2.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.AspNet.Identity.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

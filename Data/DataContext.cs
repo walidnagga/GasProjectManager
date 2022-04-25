@@ -8,5 +8,6 @@ namespace GasProjectManager.Data
         public DataContext(DbContextOptions options):base(options) 
         {
         }
+
     }
 }
